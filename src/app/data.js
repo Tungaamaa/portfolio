@@ -94,22 +94,17 @@ export const BtnList = [
   { label: "About", link: "/about", icon: "about", newTab: false },
   { label: "Projects", link: "/projects", icon: "projects", newTab: false },
   { label: "Contact", link: "/contact", icon: "contact", newTab: false },
+  { label: "Experience", link: "/contact", icon: "experience", newTab: false },
   {
     label: "Github",
-    link: "https://www.github.com/codebucks27",
+    link: "https://github.com/Tungaamaa",
     icon: "github",
     newTab: true,
   },
   {
     label: "LinkedIn",
-    link: "https://www.linkedin.com/in/codebucks",
+    link: "https://www.linkedin.com/in/tungaamaa-gerel-9a02372a0/",
     icon: "linkedin",
-    newTab: true,
-  },
-  {
-    label: "X",
-    link: "https://www.x.com/code_bucks",
-    icon: "twitter",
     newTab: true,
   },
   {
