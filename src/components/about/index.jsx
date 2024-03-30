@@ -42,6 +42,7 @@ const AboutDetails = () => {
           </p>
         </ItemLayout>
 
+
         <ItemLayout className={"col-span-full"}>
           <img
             className="w-full h-auto"
