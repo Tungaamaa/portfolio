@@ -12,7 +12,7 @@ const AboutDetails = () => {
           }
         >
           <h2 className="  text-xl md:text-2xl text-left w-full capitalize">
-            Architect of Enchantment
+            Tungaamaa Gerel
           </h2>
           <p className="font-light  text-xs sm:text-sm md:text-base   ">
             Experienced Full Stack Developer with over 5 years of expertise in

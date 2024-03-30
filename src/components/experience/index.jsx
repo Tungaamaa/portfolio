@@ -15,14 +15,28 @@ const Experience = () => {
             Experience
           </h2>
           <p className="font-light  text-xs sm:text-sm md:text-base">
-       
-Implemented pre-commit unit testing and end-to-end testing protocols, reducing post-production issue creation by 40% and enhancing overall code quality
-Led the creation of technical design documentation for over 4 projects, facilitating transparent communication among a dynamic team of more than 20 developers.
-Managed the development of an enterprise-level internal expense tracker, employing agile methodologies for seamless collaboration within a 7-member team
-
-Created comprehensive documentation detailing system designs, user guides, and technical specifications.
-Led the migration of 10 legacy software services to modern micro services using Docker, Kubernetes, and CI/CD pipelines. Achieved 0.001% marginal error rate and reduced downtime by 90%, ensuring seamless transition and boosting system performance by 30%.
-Developed efficient software solutions to meet client requirements and increased system quality by 45%.
+            - Led the creation of technical design documentation for over 4
+            projects, facilitating transparent communication among a dynamic
+            team of more than 20 developers.
+            <p>
+              - Managed the development of an enterprise-level internal expense
+              tracker, employing agile methodologies for seamless collaboration
+              within a 7-member team
+            </p>
+            <p>
+              - Created comprehensive documentation detailing system designs,
+              user guides, and technical specifications.
+            </p>
+            <p>
+              - Led the migration of 10 legacy software services to modern micro
+              services using Docker, Kubernetes, and CI/CD pipelines. Achieved
+              0.001% marginal error rate and reduced downtime by 90%, ensuring
+              seamless transition and boosting system performance by 30%.
+            </p>
+            <p>
+              - Developed efficient software solutions to meet client
+              requirements and increased system quality by 45%.
+            </p>
           </p>
         </ItemLayout>
 
@@ -42,15 +56,20 @@ Developed efficient software solutions to meet client requirements and increased
             <sub className="font-semibold text-base">years of experience</sub>
           </p>
         </ItemLayout>
-        
+
         <ItemLayout className={"col-span-full"}>
-        <h2 className="text-xl md:text-2xl text-left w-full capitalize" >
-        Education
-        </h2>
-        <p className="font-semibold text-left sm:text-5xl">
-        - Bootcamp: software engineer - Pinecone Academy 
-        - Bachelor: Computer science - National University of Mongolia, Mongolia 
-        </p>
+          <h2 className="text-xl md:text-2xl text-left w-full capitalize">
+            Education
+          </h2>
+          <p className=" sm:text-2xl w-full">
+          <p>
+          - Bootcamp: software engineer - Pinecone Academy 
+          </p>
+          <p>
+          - Bachelor:Computer science - National University of Mongolia
+          </p>
+           
+          </p>
         </ItemLayout>
       </div>
     </section>

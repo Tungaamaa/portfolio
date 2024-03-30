@@ -10,6 +10,8 @@ import Navigation from "@/components/navigation";
 //   ssr: false,
 // });
 
+
+
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between relative">
@@ -28,6 +30,7 @@ export default function Home() {
          <Image
          className="max-w-full max-h-full animate-pulse"
          src={model}/>
+         
         
       </div>
     </main>
