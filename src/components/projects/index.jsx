@@ -27,7 +27,7 @@ const ProjectList = ({ }) => {
       className="w-full max-w-auto  xl:max-w-4xl px-4 mx-auto lg:px-16 space-y-6 md:space-y-8 flex flex-col items-center"
     >
       <ProjectLink
-        href=""
+        href="https://smoothie-blog.vercel.app/"
         target={"_blank"}
         className=" text-sm md:text-base flex  items-center justify-between w-full relative rounded-lg overflow-hidden p-4 md:p-6 custom-bg"
       >
