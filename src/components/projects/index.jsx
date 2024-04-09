@@ -6,6 +6,7 @@ import Image from "next/image";
 import project1 from "../../../public/background/smoothie.jpeg";
 import project2 from "../../../public/background/meditation.jpeg";
 import project3 from "../../../public/background/tesla.jpeg";
+import project4 from "../../../public/background/expense-tracker.jpeg";
 
 const container = {
   hidden: { opacity: 0 },
@@ -59,6 +60,22 @@ const ProjectList = ({ }) => {
 
         <Image src={project2} className="w-21 h-21" />
       </ProjectLink>
+
+      <ProjectLink
+      href="https://expense-tracker-amber-tau.vercel.app/"
+      target={"_blank"}
+      className=" text-sm md:text-base flex  items-center justify-between w-full relative rounded-lg overflow-hidden p-4 md:p-6 custom-bg"
+    >
+      <div className="flex items-center justify-center space-x-2">
+        <h2 className="text-foreground">Expense tracker</h2>
+        <p className="text-muted hidden sm:inline-block">
+        Expense Tracker website, your personal finance assistant to help you manage your spending and achieve your financial goals efficiently.
+        </p>
+      </div>
+      <div className="self-end flex-1 mx-2 mb-1 bg-transparent border-b border-dashed border-muted" />
+
+      <Image src={project4} className="w-21 h-21" />
+    </ProjectLink>
 
       <ProjectLink
         href="https://tesla-260b0.web.app/"
