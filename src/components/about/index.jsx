@@ -47,7 +47,7 @@ const AboutDetails = () => {
           <img
             className="w-full h-auto"
             src="https://github-readme-stats.vercel.app/api/top-langs/?username=tungaamaa&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false"
-            alt="CodeBucks"
+            alt="Tungaamaa"
             loading="lazy"
           />
         </ItemLayout>
@@ -58,7 +58,7 @@ const AboutDetails = () => {
           <img
             className="w-full h-auto"
             src="https://github-readme-stats.vercel.app/api?username=tungaamaa&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false"
-            alt="CodeBucks"
+            alt="Tungaamaa"
             loading="lazy"
           />
         </ItemLayout>
@@ -67,7 +67,7 @@ const AboutDetails = () => {
           <img
             className="w-full h-auto"
             src={`https://skillicons.dev/icons?i=bootstrap,css,d3,docker,figma,firebase,git,github,graphql,html,ipfs,js,jquery,linux,mongodb,mysql,nextjs,nodejs,npm,react,sass,tailwind,threejs,vercel,vscode,yarn`}
-            alt="CodeBucks"
+            alt="Tungaamaa"
             loading="lazy"
           />
         </ItemLayout>
@@ -78,13 +78,3 @@ const AboutDetails = () => {
 
 export default AboutDetails;
 
-// <ItemLayout
-//           className={"col-span-full sm:col-span-6 md:col-span-4 !p-0"}
-//         >
-//           <img
-//             className="w-full h-auto"
-//             src={`${process.env.NEXT_PUBLIC_GITHUB_STATS_URL}/api/top-langs?username=codebucks27&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false`}
-//             alt="CodeBucks"
-//             loading="lazy"
-//           />
-//         </ItemLayout>
