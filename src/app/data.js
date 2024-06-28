@@ -31,7 +31,7 @@ export const BtnList = [
   },
   {
     label: "LinkedIn",
-    link: "https://www.linkedin.com/in/tungaamaa-gerel-9a02372a0/",
+    link: "https://www.linkedin.com/in/tungaa-gerel/",
     icon: "linkedin",
     newTab: true,
   },
